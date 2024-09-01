@@ -10,8 +10,8 @@ body{
     height: 2000px;
 }
 
-body button{
-    background-color:wheat;
+body button:hover{
+    cursor: pointer;
 }
 
 
@@ -36,7 +36,7 @@ body button{
     width: 120px;
     border: 0px;
     border-radius: 5px;
-
+    background-color:wheat;
     margin-right: 20px;
 }
 
@@ -65,6 +65,10 @@ body button{
 
     font-family: Arial;
 
+}
+
+.contentFirst button{
+    background-color:wheat;
 }
 
 .contentFirst .textheadFirst{
@@ -105,4 +109,9 @@ body button{
     margin-top: 12px;
     margin-right: 12px;
     font-size: 50px;
+}
+
+.isiAU button{
+    background-color: transparent;
+    border: 0px;
 }
