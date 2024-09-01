@@ -11,7 +11,7 @@ body{
 }
 
 body button{
-    background-color: #B8926B
+    background-color:wheat;
 }
 
 
@@ -20,6 +20,7 @@ body button{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    font-family:Segoe UI;
     
 }
 
@@ -35,6 +36,8 @@ body button{
     width: 120px;
     border: 0px;
     border-radius: 5px;
+
+    margin-right: 20px;
 }
 
 .banner{
@@ -56,6 +59,11 @@ body button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: bisque;
+    height: 350px;
+    border-radius: 20px;
+
+    font-family: Arial;
 
 }
 
@@ -75,4 +83,26 @@ body button{
     border: 0px;
     border-radius: 5px;
     
+    box-shadow: 5px 5px burlywood;
+}
+
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    font-family: Arial;
+}
+
+.aboutUs h2{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.aboutUs i{
+    margin-top: 12px;
+    margin-right: 12px;
+    font-size: 50px;
 }
